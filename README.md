@@ -2,6 +2,9 @@
 
 CS 411 -- Professional Workforce Development -- Team Crystal
 
+Website:
+* Aaron Berman
+
 UI Team:
 * Noah Jennings
 * Rosalie Oliva
@@ -15,14 +18,6 @@ Algorithm Team:
 * Stephen Ayers
 
 React Web Application
-
-## Download
-
-* Clone the repo
-
-```
-git clone https://gitlab.com/410crystal/acubed.git
-```
 
 ## GUI Usage
 
