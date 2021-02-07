@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Ubuntu', sans-serif;
+    color: #505962;
+}
+
+.offset:before {
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -4rem;
+}
+
+/*----- Navigation------ */
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background-color: rgba(0, 0, 0, 0.6)!important;
+}
+
+.navbar-brand {
+    height: 2.6rem;
+    padding-top: 0px;
+}
+
+.navbar-brand img {
+    height: 3rem;
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #60b0f4;
+    padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #b3b3ec;
+}
+
+
+/*----- Landing page-----*/
+.home-inner {
+    background-image: url(../images/kaley-dykstra-gtVrejEGdmM-unsplash5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    text-transform: none;
+}
+.caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+    color: #60b0f4;
+}
+.caption h3 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+    color: #9cea83;
+}
+.caption h4 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+    color: #9cea83;
+}
+.btn-lg {
+    border-width: medium;
+    border-radius: 1.5rem;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+    color: white;
+    background-color: none;
+    border-color: #60b0f4;
+}
+/*----- team page--------*/
+.team-inner {
+    background-image: url(../images/sandy-millar-OzyY3C8zVU8-unsplash3.jpg);
+    background-position: contain;
+    background-repeat: no-repeat;
+}
+/*----- presentation page--------*/
+.presentation-inner {
+    background-image: url(../images/jewellery-2199902_640.jpg);
+    background-position: contain;
+    background-repeat: no-repeat;
+}
+/*----- deliverables page-----*/
+.deliverables-inner {
+    background-image: url(../images/sonny-ravesteijn--2jzHmDWCc8-unsplash4.jpg);
+    background-position: contain;
+    background-repeat: no-repeat;
+}
+/*----- references page-----*/
+.references-inner {
+    background-image: url(../images/stepan-vrany-tDkZCPZgwOw-unsplash3.jpg);
+    background-position: contain;
+    background-repeat: no-repeat;
+}
+/* ---- UI Home Page ---- */ 
+.ui-inner {
+    background-image: url(../images/lib.jpg);
+    background-position: contain;
+    background-repeat: no-repeat;
+}
+
+/*----- section 2------ */
+#problem-history {
+    background-color:rgb(48, 47, 47);
+    color: #c2e9b5;
+    padding: 3rem;
+}
+.narrow {
+    width: 75%;
+    margin: 0rem auto;
+    padding-top: 2rem;
+}
+.narrow h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#team-members {
+    background-color:rgb(48, 47, 47);
+    padding: 3rem 0;
+}
+#team-members h3 {
+    color: #60b0f4;
+}
+#team-members .heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: #60b0f4;
+    margin: 0 auto;
+}
+
+#presentation-content {
+    background-color: rgb(230, 221, 211);
+    padding: 3rem 0;
+}
+#presentation-content h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(48, 47, 47);
+}
+#presetntation-content .heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: rgb(48, 47, 47);
+    margin: 0 auto;
+}
+#presetntation-content h2 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: rgb(48, 47, 47);
+}
+#presentation-content h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(48, 47, 47);
+}
+#presentation-content p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgb(48, 47, 47);
+}
+#presentations .nav .nav-item .nav-link.active{
+    color:  rgb(48, 47, 47);
+    background-color: #60b0f4;
+}
+#presentation-content .iframe-container {
+    overflow: hidden;
+    padding-top: 57.25%;
+    padding-right: 32%;
+    position: relative;
+}
+#presentation-content .iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+/* 4x3 Aspect Ratio */
+#presentation-content .iframe-container-4x3 {
+    padding-top: 75%;
+  }
+
+#deliverables-content {
+    background-color: rgb(230, 221, 211);
+    padding: 3rem 0;
+}
+#deliverables-content h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(48, 47, 47);
+}
+#deliverables-content .heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: rgb(48, 47, 47);
+    margin: 0 auto;
+}
+#deliverables-content h2 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: rgb(48, 47, 47);
+}
+#deliverables-content h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(48, 47, 47);
+}
+#deliverables-content p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgb(48, 47, 47);
+}
+
+#deliverables .nav .nav-item .nav-link.active{
+    color:  rgb(48, 47, 47);
+    background-color: #60b0f4;
+}
+#home .iframe-container {
+    overflow: hidden;
+    padding-top: 57.25%;
+    padding-right: 0%;
+    position: relative;
+}
+#deliverables .iframe-container {
+    overflow: hidden;
+    padding-top: 57.25%;
+    padding-right: 32%;
+    position: relative;
+}
+#deliverables .iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+/* 4x3 Aspect Ratio */
+#deliverables .iframe-container-4x3 {
+    padding-top: 75%;
+  }
+
+#ui-material {
+    background-color: #c2e9b5;
+    padding: 3rem 0; 
+}
+#ui-material h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(48, 47, 47);
+}
+#ui-material .heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: rgb(48, 47, 47);
+    margin: 0 0;
+    text-align: left;
+}
+#reference-material {
+    background-color: #c2e9b5;
+    padding: 3rem 0;
+}
+
+#reference-material h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(48, 47, 47);
+}
+#reference-material .heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: rgb(48, 47, 47);
+    margin: 0 0;
+    text-align: left;
+}
+.dont-break-out {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    word-break: break-word;
+    hyphens: auto;
+  }
+/*----- section 3------ */
+.jumbotron {
+    margin: 0px;
+    background-color: rgb(230, 221, 211);
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+    color: rgb(48, 47, 47);
+}
+h3.heading {
+    font-size: 2.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: #c2e9b5;
+    margin: 0 auto;
+}
+.alt-heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: #505962;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #60b0f4;
+    color: black;
+}
+.card h5{
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.card-role {
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    font-style: italic;
+    color: white;
+}
+.card-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: none;
+}
+
+
+/*----- section 4------ */
+#problem-characteristics {
+    background-color:rgb(48, 47, 47);
+    color: #c2e9b5;
+    padding: 3rem;
+}
+/*----- section 5------ */
+#solution-characteristics {
+    background-color:rgb(48, 47, 47);
+    color: #c2e9b5;
+    padding: 3rem;
+}
+
+/*----- footer------ */
+.footer {
+  background-color: #60b0f4;
+  margin: 0px;
+  height:60px;
+}
+.footer p {
+    padding-top: 1rem;
+}
+
+@media (max-width: 1199px) {
+    .navbar {
+        overflow: auto;
+        max-height: 85vh;
+        align-items: flex-start;
+    }
+}
