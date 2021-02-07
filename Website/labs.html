@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CS 411 Group Crystal - Labs</title>
+  <link rel="icon" href="./images/crystal2.png" />
+  <link rel="stylesheet" href="./styles/bootstrap-4.4.1-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="./styles/fixed.css" />
+  <link rel="stylesheet" href="./styles/base.css" />
+</head>
+
+<body data-aos-easing="ease">
+  <!--Start Home Section-->
+  <div id="home">
+    <!--Start Navigation Section-->
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="home.html"><img src="./images/crystal.png" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Home</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="home.html">Home Top</a>
+              <a class="dropdown-item" href="home.html#problem-history">History</a>
+              <a class="dropdown-item" href="home.html#problem-statement">Problem Statement</a>
+              <a class="dropdown-item" href="home.html#problem-characteristics">Problem Characteristics</a>
+              <a class="dropdown-item" href="home.html#solution-statement">Solution Statement</a>
+              <a class="dropdown-item" href="home.html#solution-characteristics">Solution Characteristics</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team.html">Team</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Presentations</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="presentations.html">Presentations Top</a>
+              <a class="dropdown-item" href="presentations.html#FeasibilityV1">Feasibility</a>
+              <a class="dropdown-item" href="presentations.html#FeasibilityV2">Feasibility V2</a>
+              <a class="dropdown-item" href="presentations.html#Design">Design</a>
+              <a class="dropdown-item" href="presentations.html#Prototype">Prototype</a>
+              <a class="dropdown-item" href="presentations.html#PrototypeDemo"
+                  >PrototypeDemo</a
+                >
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Deliverables</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="deliverables.html">Deliverables Top</a>
+              <a class="dropdown-item" href="deliverables.html#MFCD">MFCD</a>
+              <a class="dropdown-item" href="deliverables.html#CurrentProcessFlow">Current Process Flow</a>
+              <a class="dropdown-item" href="deliverables.html#SolutionProcessFlow">Solution Process Flow</a>
+              <a class="dropdown-item" href="deliverables.html#WBS">Work Breakdown Structures</a>
+              <a class="dropdown-item" href="deliverables.html#DatabaseSchema">Database Schema</a>
+              <a class="dropdown-item" href="deliverables.html#Algorithms">Algorithms</a>
+              <a class="dropdown-item" href="deliverables.html#Users">User Roles</a>
+              <a class="dropdown-item" href="deliverables.html#Risks">Risks</a>
+              <a class="dropdown-item" href="deliverables.html#RWPvs">RWP vs Prototype</a>
+              <a class="dropdown-item" href="deliverables.html#other">Links to other Deliverables</a>
+
+              <!--a class="dropdown-item" href="deliverables.html#WorkBreakdownStructure">WBS-Overview</a-->
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mockUps.html">Mock-Ups</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="labs.html">Labs</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">User Stories</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="userStories.html">User Stories Top</a>
+              <a class="dropdown-item" href="userStories.html#RWP">User Stories RWP</a>
+              <a class="dropdown-item" href="userStories.html#Proto">User Stories Prototype</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="glossary.html">Glossary</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="references.html">References</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--End Navigation Section-->
+
+    <!--Start Landing Page Section-->
+    <div class="landing">
+      <div class="home_wrap">
+        <div class="home-inner"></div>
+      </div>
+    </div>
+
+    <div class="caption text-center">
+      <h1>A<sup>3</sup> framework</h1>
+      <h3>Aggregation and Archiving of Artifacts</h3>
+      <h5>"Repository of Reliable Resources"</h5>
+      <br>
+      <a class="btn btn-outline-light btn-lg" href="#team" style="color: black; background-color: #b3b3ec;">Team</a>
+      <a class="btn btn-outline-light btn-lg" href="#ayers" style="color: black; background-color: #b3b3ec;">Stephen
+        Ayers</a>
+      <a class="btn btn-outline-light btn-lg" href="#berman" style="color: black; background-color: #b3b3ec;">Aaron
+        Berman</a>
+      <a class="btn btn-outline-light btn-lg" href="#campbell" style="color: black; background-color: #b3b3ec;">Mike
+        Campbell</a>
+      <a class="btn btn-outline-light btn-lg" href="#jennings" style="color: black; background-color: #b3b3ec;">Noah
+        Jennings</a>
+      <a class="btn btn-outline-light btn-lg" href="#murphy" style="color: black; background-color: #b3b3ec;">Joshua
+        Murphy</a>
+      <a class="btn btn-outline-light btn-lg" href="#oliva" style="color: black; background-color: #b3b3ec;">Rosalie
+        Oliva</a>
+    </div>
+    <!--End Landing Page-->
+  </div>
+
+  <!--End Home Section-->
+
+  <div id="presentation-content" class="offset">
+    <div class="narrow">
+      <div class="col-12 text-center">
+        <h3 class="heading">Labs</h3>
+        <div class="alt-heading-underline"></div>
+      </div>
+      <div class="col-md-12 narrow text-center">
+        <h2 id="team" name="team">Lab 1 Outline</h2>
+        <h5>Summer 2020</h5>
+        <div class="iframe-container col-md-12 text-center">
+          <iframe
+            src="https://docs.google.com/document/d/e/2PACX-1vSxWtYj6WuY3gjbDrn_BU0jlqfqIIi29wn6GJzEA55CJO00zQFlKrRIze0DhSWoGQ/pub?embedded=true"
+            frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true"
+            webkitallowfullscreen="true">
+          </iframe>
+        </div>
+        <p>*Preview may render different than the actual file.</p>
+      </div>
+      <h5>Download Lab 1 - Outline</h5>
+      <p></p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <p style="margin: 0px;" class="nav-link active">
+            Summer 2020 Team Crystal A<sup>3</sup> Lab 1 - Outline
+            <a href="./resources/Lab 1 - Global Document.pdf" style="color: white;" target="_blank">PDF format
+            </a>
+            |
+            <a href="./resources/Lab 1 - Global Document.docx" style="color: white;" target="_blank">DOCX format</a>
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="narrow">
+      <div class="col-md-12 narrow text-center">
+        <h2 id="team" name="team">Lab 2 Section 3</h2>
+        <h5>Summer 2020</h5>
+        <div class="iframe-container col-md-12 text-center">
+          <iframe
+            src="https://docs.google.com/document/d/e/2PACX-1vQsheNUMaaVAhLlyBuT8UMBl0DXfuHmr8hEPs3bpBw2ByZZI0nczbkhx-tukI5rlAYzUmbvRwcf7vDP/pub?embedded=true"
+            frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true"
+            webkitallowfullscreen="true">
+          </iframe>
+        </div>
+        <p>*Preview may render different than the actual file.</p>
+      </div>
+      <h5>Download Lab 2 section 3</h5>
+      <p></p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <p style="margin: 0px;" class="nav-link active">
+            Summer 2020 Team Crystal A<sup>3</sup> Lab 2 Section 3
+            <a href="./resources/Lab 2 section 3.pdf" style="color: white;" target="_blank">PDF format
+            </a>
+            |
+            <a href="./resources/Lab 2 section 3.docx" style="color: white;" target="_blank">DOCX format</a>
+          </p>
+        </li>
+        <li class="nav-item">
+          <p style="margin: 0px;" class="nav-link active">
+            Summer 2020 Team Crystal A<sup>3</sup> Lab 2 Section 3 v2
+            <a href="./resources/Lab_2_section_3_v2.pdf" style="color: white;" target="_blank">PDF format
+            </a>
+            |
+            <a href="./resources/Lab_2_section_3_v2.docx" style="color: white;" target="_blank">DOCX format</a>
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="narrow">
+      <div class="col-md-12 narrow text-center">
+        <h2 id="team" name="team">Lab 3</h2>
+        <h5>Summer 2020</h5>
+        <div class="iframe-container col-md-12 text-center">
+          <iframe
+            src="https://docs.google.com/document/d/e/2PACX-1vS9e_4eg8X0SWBs0nUxBbZcDsUTMlbbnj0EdXLiJ53_n8a0SYutJ0NuJjAOUETHfbKlVEMjyGmGnjh1/pub?embedded=true"
+            frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true"
+            webkitallowfullscreen="true">
+          </iframe>
+        </div>
+        <p>*Preview may render different than the actual file.</p>
+      </div>
+      <h5>Download Lab 3</h5>
+      <p></p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <p style="margin: 0px;" class="nav-link active">
+            Summer 2020 Team Crystal A<sup>3</sup> Lab 3
+            <a href="./resources/Lab_3_version_1.pdf" style="color: white;" target="_blank">PDF format
+            </a>
+            |
+            <a href="./resources/Lab_3_version_1.docx" style="color: white;" target="_blank">DOCX format</a>
+          </p>
+          <!--/li>
+          <li class="nav-item">
+            <p style="margin: 0px;" class="nav-link active">
+              Summer 2020 Team Crystal A<sup>3</sup> Lab 2 Section 3 v2
+              <a
+                href="./resources/Lab_2_section_3_v2.pdf"
+                style="color: white;"
+                target="_blank"
+                >PDF format
+              </a>
+              |
+              <a
+                href="./resources/Lab_2_section_3_v2.docx"
+                style="color: white;"
+                target="_blank"
+                >DOCX format</a
+              >
+            </p>
+          </li-->
+      </ul>
+    </div>
+  </div>
+  
+
+  <div id="problem-history" class="offset ">
+    <div class="col-md-12 text-center">
+      <h3 class="heading" id="ayers" name="ayers">Stephen Ayers</h3>
+      <div class="heading-underline"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-3 "></div>
+      <div class="col-sm-4 center">
+        <div class="characteristics">
+          <ul>
+            <h4>Lab 1</h4>
+            <li>
+              <p style="font-size: 16px;">
+                <a href="./resources/ayers/Stephen_Ayers_Lab_1.pdf" style="color: white;" target="_blank">410 Lab 1
+                  Draft - PDF</a>
+              </p>
+            </li>
+            <li>
+              <p style="font-size: 16px;">
+                <a href="./resources/ayers/Stephen_Ayers_Lab_1.pdf" style="color: white;" target="_blank">411 Lab 1
+                  Draft - PDF</a>
+              </p>
+            </li>
+            <li>
+              <p style="font-size: 16px;">
+                <a href="./resources/ayers/Stephen_Ayers_Lab_1_v1.pdf" style="color: white;" target="_blank">411 Lab 1
+                  Version 1 - PDF</a>
+              </p>
+            </li>
+            <li>
+              <p style="font-size: 16px;">
+                <a href="./resources/ayers/Stephen_Ayers_Lab_1_v2.pdf" style="color: white;" target="_blank">411 Lab 1
+                  Version 2 - PDF</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-4 center">
+        <div class="characteristics rounded">
+          <ul>
+            <h4>Lab 2</h4>
+            <li>
+              <p style="font-size: 16px;">
+                <a href="./resources/ayers/Stephen Ayers Lab 2 v1.pdf" style="color: white;" target="_blank">411 Lab 2
+                  Version 1 - PDF</a>
+              </p>
+            </li>
+            <li>
+              <p style="font-size: 16px;">
+                <a href="./resources/ayers/Stephen Ayers Lab 2 v1.pdf" style="color: white;" target="_blank">411 Lab 2
+                  Version 2 - PDF</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="problem-statement" class="offset">
+    <div class="jumbotron">
+      <div class="narrow text-center">
+        <h1 id="berman" name="berman">Aaron Berman</h1>
+        <div class="alt-heading-underline"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3 "></div>
+        <div class="col-sm-4 ">
+          <div class="characteristics">
+            <ul>
+              <h4>Lab 1</h4>
+              <li>
+                <p style="font-size: 16px;">
+                  <a href="./resources/berman/AaronBermanCrystalLab1Draft.pdf" style="color: black;" target="_blank">410
+                    Lab 1 Draft - PDF</a>
+                </p>
+              </li>
+              <li>
+                <p style="font-size: 16px;">
+                  <a href="./resources/berman/AaronBermanCrystalLab1Draft411W.pdf" style="color: black;"
+                    target="_blank">411 Lab 1 Draft - PDF</a>
+                </p>
+              </li>
+              <li>
+                <p style="font-size: 16px;">
+                  <a href="./resources/berman/AaronBermanCrystalLab1Version1.pdf" style="color: black;"
+                    target="_blank">411 Lab 1 Version 1 - PDF</a>
+                </p>
+              </li>
+              <li>
+                <p style="font-size: 16px;">
+                  <a href="./resources/berman/AaronBermanCrystalLab1Version2411W.pdf" style="color: black;"
+                    target="_blank">411 Lab 1 Version 2 - PDF</a>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="characteristics rounded">
+            <ul>
+              <h4>Lab 2</h4>
+              <li>
+                <p style="font-size: 16px;">
+                  <a href="./resources/berman/AaronBermanCrystalLab2Version1411W.pdf " style="color: black;"
+                    target="_blank">411 Lab 2 Version 1 - PDF</a>
+                </p>
+              </li>
+              <li>
+                <p style="font-size: 16px;">
+                  <a href="./resources/berman/AaronBermanCrystalLab2Version2411W.pdf " style="color: black;"
+                    target="_blank">411 Lab 2 Version 2 - PDF</a>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="problem-history" class="offset ">
+      <div class="col-md-12 text-center">
+        <h3 class="heading" id="campbell" name="campbell">Mike Campbell</h3>
+        <div class="heading-underline"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-3 "></div>
+        <div class="col-sm-4">
+          <div class="characteristics">
+            <ul>
+              <h4>Lab 1</h4>
+              <li>
+                <p style="font-size: 16px;">
+                  <a href="./resources/campbell/Lab_1_mikeCampbell.pdf" style="color: white;" target="_blank">410 Lab 1
+                    Draft - PDF</a>
+                </p>
+              </li>
+              <li>
+                <p style="font-size: 16px;">
+                  <a href="./resources/campbell/Lab_1_mikeCampbell.pdf" style="color: white;" target="_blank">411 Lab 1
+                    Draft - PDF</a>
+                </p>
+              </li>
+              <li>
+                <p style="font-size: 16px;">
+                  <a href="./resources/campbell/campbell_Lab_1_v_1.pdf" style="color: white;" target="_blank">411 Lab 1
+                    Version 1 - PDF</a>
+                </p>
+              </li>
+              <li>
+                <p style="font-size: 16px;">
+                  <a href="./resources/campbell/Campbell_Lab_1_v_2.pdf" style="color: white;" target="_blank">411 Lab 1
+                    Version 2 - PDF</a>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="characteristics rounded">
+            <ul>
+              <h4>Lab 2</h4>
+              <li>
+                <p style="font-size: 16px;">
+                  <a href="./resources/campbell/Campbell_Lab_2_v_1_sections_1_and_2.pdf" style="color: white;"
+                    target="_blank">411 Lab 2 Version 1 - PDF</a>
+                </p>
+              </li>
+              <li>
+                <p style="font-size: 16px;">
+                  <a href="./resources/campbell/Lab_2_v_2_sections_1_and_2.pdf" style="color: white;"
+                    target="_blank">411 Lab 2 Version 2 - PDF</a>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="problem-statement" class="offset">
+      <div class="jumbotron">
+        <div class="narrow text-center">
+          <h1 id="jennings" name="jennings">Noah Jennings</h1>
+          <div class="alt-heading-underline"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3 "></div>
+          <div class="col-sm-4">
+            <div class="characteristics">
+              <ul>
+                <h4>Lab 1</h4>
+                <li>
+                  <p style="font-size: 16px;">
+                    <a href="./resources/jennings/Noah_Jennings_Lab1.pdf" style="color: black;" target="_blank">410 Lab
+                      1 Draft - PDF</a>
+                  </p>
+                </li>
+                <li>
+                  <p style="font-size: 16px;">
+                    <a href="./resources/jennings/Noah_Jennings_Lab1.pdf" style="color: black;" target="_blank">411 Lab
+                      1 Draft - PDF</a>
+                  </p>
+                </li>
+                <li>
+                  <p style="font-size: 16px;">
+                    <a href="./resources/jennings/Jennings_A3FrameworkV1.pdf" style="color: black;" target="_blank">411
+                      Lab 1 Version 1 - PDF</a>
+                  </p>
+                </li>
+                <li>
+                  <p style="font-size: 16px;">
+                    <a href="./resources/jennings/Jennings_lab1v2.pdf" style="color: black;" target="_blank">411 Lab 1
+                      Version 2 - PDF</a>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="characteristics rounded">
+              <ul>
+                <h4>Lab 2</h4>
+                <li>
+                  <p style="font-size: 16px;">
+                    <a href="./resources/jennings/Jennings_lab2v1.pdf" style="color: black;" target="_blank">411 Lab 2
+                      Version 1 - PDF</a>
+                  </p>
+                </li>
+                <li>
+                  <p style="font-size: 16px;">
+                    <a href="./resources/jennings/lab2v2.pdf" style="color: black;" target="_blank">411 Lab 2 Version 2
+                      - PDF</a>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="problem-history" class="offset ">
+        <div class="col-md-12 text-center">
+          <h3 class="heading" id="murphy" name="murphy">Joshua Murphy</h3>
+          <div class="heading-underline"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3 "></div>
+          <div class="col-sm-4">
+            <div class="characteristics">
+              <ul>
+                <h4>Lab 1</h4>
+                <li>
+                  <p style="font-size: 16px;">
+                    <a href="./resources/murphy/Murphy_Lab_1_converted.pdf" style="color: white;" target="_blank">410
+                      Lab 1 Draft - PDF</a>
+                  </p>
+                </li>
+                <li>
+                  <p style="font-size: 16px;">
+                    <a href="./resources/murphy/Murphy_Lab_1_draft.pdf" style="color: white;" target="_blank">411 Lab 1
+                      Draft - PDF</a>
+                  </p>
+                </li>
+                <li>
+                  <p style="font-size: 16px;">
+                    <a href="./resources/murphy/Murphy_Lab_1_verison_1.pdf" style="color: white;" target="_blank">411
+                      Lab 1 Version 1 - PDF</a>
+                  </p>
+                </li>
+                <li>
+                  <p style="font-size: 16px;">
+                    <a href="./resources/murphy/Murphy_Lab_1_verison_2.pdf" style="color: white;" target="_blank">411
+                      Lab 1 Version 2 - PDF</a>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="characteristics rounded">
+              <ul>
+                <h4>Lab 2</h4>
+                <li>
+                  <p style="font-size: 16px;">
+                    <a href="./resources/murphy/lab_2_version_2_7072020.pdf" style="color: white;" target="_blank">411
+                      Lab 2 Version 1 - PDF</a>
+                  </p>
+                </li>
+                <li>
+                  <p style="font-size: 16px;">
+                    <a href="./resources/murphy/Murphy_Lab_2_version_1_6242020.pdf" style="color: white;"
+                      target="_blank">411 Lab 2 Version 2 - PDF</a>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="problem-statement" class="offset">
+        <div class="jumbotron">
+          <div class="narrow text-center">
+            <h1 id="oliva" name="oliva">Rosalie Oliva</h1>
+            <div class="alt-heading-underline"></div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3 "></div>
+            <div class="col-sm-4">
+              <div class="characteristics">
+                <ul>
+                  <h4>Lab 1</h4>
+                  <li>
+                    <p style="font-size: 16px;">
+                      <a href="./resources/oliva/Lab_1_Rosalie_Oliva.pdf" style="color: black;" target="_blank">410 Lab
+                        1 Draft - PDF</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p style="font-size: 16px;">
+                      <a href="./resources/oliva/Lab_1_Rough_Draft_Rosalie_Oliva.pdf" style="color: black;"
+                        target="_blank">411 Lab 1 Draft - PDF</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p style="font-size: 16px;">
+                      <a href="./resources/oliva/Oliva_Lab_1_Descriptive_Paper.pdf" style="color: black;"
+                        target="_blank">411 Lab 1 Version 1 - PDF</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p style="font-size: 16px;">
+                      <a href="./resources/oliva/Oliva_Lab_1_V2.pdf" style="color: black;" target="_blank">411 Lab 1
+                        Version 2 - PDF</a>
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="characteristics rounded">
+                <ul>
+                  <h4>Lab 2</h4>
+                  <li>
+                    <p style="font-size: 16px;">
+                      <a href="./resources/oliva/Oliva_Lab_2_V1.pdf" style="color: black;" target="_blank">411 Lab 2
+                        Version 1 - PDF</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p style="font-size: 16px;">
+                      <a href="./resources/oliva/Lab 2 V2.pdf" style="color: black;" target="_blank">411 Lab 2 Version 2
+                        - PDF</a>
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--==============================
+            FOOTER
+    ==============================-->
+        <footer>
+          <div class="footer no-border text-center">
+            <p style="margin: 0px;">
+              <a href="https://www.odu.edu" style="color: white;" target="_blank">Old Dominion University</a>
+              |
+              <a href="https://www.odu.edu/compsci" style="color: white;" target="_blank">411</a>
+              | Summer Team Crystal copyright &copy;2020
+            </p>
+          </div>
+        </footer>
+
+        <!-- Script source files-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="./styles/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+        <!--script src="https://use.fontawesome.com/release/v5.12.1/js/all.js"></script>-->
+        <!-- End script source files -->
+</body>
+
+</html>
